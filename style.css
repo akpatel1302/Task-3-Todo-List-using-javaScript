@@ -1,0 +1,93 @@
+.todo-list{
+    border: 2px solid #337AB7;
+    margin: 10px;
+}
+
+.todo-list > .todo-list-header{
+    background-color:#026CFF;  
+    color: white;
+    padding: 3px;  
+}
+
+.todo-list > .todo-list-body{
+    margin: 10px;  
+    border-bottom: 2px #EAE9EA;
+}
+
+
+.form-border{
+    border: 1px solid #e0e4e8;
+    padding: 0px;
+    border-radius: 3px;
+}
+
+.form-border > .b-header{
+    border: 1px solid #e0e4e8;
+    padding: 5px;
+    font-weight: 400;
+    background-color: rgba(223, 221, 221, 0.637);
+}
+
+.form-border > .form-fields{
+    padding: 10px;
+}
+.form-border > .todo-list-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.List{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+div .BackLog{
+    border: 2px solid #6C757D;
+    border-radius:9px;
+}
+
+
+div .inprogress-header{
+    background-color: #7E5BFF;
+}
+
+div .inprogress{
+    border: 2px solid #7E5BFF;
+    border-radius:9px;
+}
+
+#buttons{
+    padding-top: 15px;
+}
+
+a{
+    cursor: pointer;
+    height: min-content;
+}
+
+div.saparate{
+    display: flex;
+    justify-content: space-around;
+}
+
+div.card-title-group{
+    height: max-content;
+    width: 113px;
+}
+
+div.row{
+    padding: 10px 10px;
+}
+
+/* -------------------here dynamic */
+
+.todoContainer{
+    display: flex;
+    padding: 10px 10px;
+    overflow: auto;
+}
+
+.col-md-3{
+    margin: 8px;
+}
